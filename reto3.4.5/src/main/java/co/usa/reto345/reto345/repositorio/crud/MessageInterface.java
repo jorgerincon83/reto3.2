@@ -1,0 +1,10 @@
+package co.usa.reto345.reto345.repositorio.crud;
+
+import co.usa.reto345.reto345.modelo.Message;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MessageInterface extends CrudRepository <Message,Integer> {
+
+
+
+}
